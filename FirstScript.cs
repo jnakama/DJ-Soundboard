@@ -43,13 +43,7 @@ public class SecondScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if(Input.GetKey(myKey))
-        //{
-        //  userinputs.Add(myKey);
-        //print(userinputs.GetEnumerator(userinputs.length));
-        //}
-
-        string []keyList = { "1", "2", "3", "4", "5", "6", "q", "w", "e", "r", "t", "y", "space", "a","s","d","f","g","h","z","x","c","v","b","n"};
+          string []keyList = { "1", "2", "3", "4", "5", "6", "q", "w", "e", "r", "t", "y", "space", "a","s","d","f","g","h","z","x","c","v","b","n"};
         for(int i=0;i<25;i++)
         {
             if (recordOn == true)
